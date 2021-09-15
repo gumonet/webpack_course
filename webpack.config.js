@@ -27,6 +27,10 @@ module.exports = {
                     MiniCssExtractPlugin.loader,
                     "css-loader",
                 ]
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg|webp)$/i, //Que archivos vas a utilizar?
+                use:[ "file-loader?name=assets/[name].[ext]" ]
             }
         ]
     },
