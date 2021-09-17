@@ -16,7 +16,17 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_webpack_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/webpack.svg */ \"./src/assets/webpack.svg\");\n\n\ndocument.getElementById(\"app\").innerHTML = \"<img src=\\\"\".concat(_assets_webpack_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"], \"\\\" alt=\\\"webpack\\\">\");\nvar arr = [1, 2, 3];\n\nvar codeESNext = function codeESNext() {\n  var _console;\n\n  return (_console = console).log.apply(_console, arr);\n};\n\nconsole.log(\"Hola mundo sin configuración con Webpack\");\ncodeESNext();\n\n//# sourceURL=webpack://webpack_curso/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_webpack_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/webpack.svg */ \"./src/assets/webpack.svg\");\n/* harmony import */ var _assets_saga_kanon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/saga-kanon.png */ \"./src/assets/saga-kanon.png\");\n\n\n\nvar d = document;\nvar $app = d.getElementById(\"app\");\nvar $h1 = d.createElement(\"h1\");\nvar $logo = d.createElement(\"img\");\nvar $image = d.createElement(\"img\");\n$h1.textContent = \"Hola from Webpack\";\n$logo.src = _assets_webpack_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n$logo.classList.add(\"icon\");\n$image.src = _assets_saga_kanon_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\n$app.appendChild($h1);\n$app.appendChild($logo);\n$app.appendChild($image);\n\n//# sourceURL=webpack://webpack_curso/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/saga-kanon.png":
+/*!***********************************!*\
+  !*** ./src/assets/saga-kanon.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/saga-kanon.png\");\n\n//# sourceURL=webpack://webpack_curso/./src/assets/saga-kanon.png?");
 
 /***/ }),
 
